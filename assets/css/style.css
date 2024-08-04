@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* khôi phục chữ mặc định theo rem */
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  /* vì mặc định font-weight là 400 nên chúng ta bỏ qua */
+}
+
+/* ============================Common======================== */
+/* đây là điều chỉnh đặc tính chung của trang */
+a {
+  /* gạch bỏ các phần gạch dưới liên kết */
+  text-decoration: none;
+}
